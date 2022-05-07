@@ -1,3 +1,10 @@
+# python fun practicing
+# personal implementation for python split function for string (whitespaces delimiters only)
+# returns a list of the substrings of a given string
+# as separated by whitespaces (new line, space, etc..)
+#
+# Author: Yossi Lisha
+
 def whitespaces_split(input_string):
     prev_space_end_index = -1
     split_string_list = []
